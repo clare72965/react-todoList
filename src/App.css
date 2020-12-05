@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  background: #f9f9f9;
+  top: 10px;
+  min-height: 500px;
+  padding: 10px;
+}
+
+.title{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+

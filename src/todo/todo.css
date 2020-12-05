@@ -1,0 +1,70 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.list-item-box{
+    width: 86%;
+}
+
+.list-item,.list-item-edit{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+.list-item-edit input{
+    padding: 5px 15px;
+    border: 1px solid #1ea5ff;
+    cursor: pointer;
+    border-radius: 2px 0 0 2px;
+    height: 25px;
+    font-size: 18px;
+    width: 80%;
+    text-align: left;
+}
+
+.list-item-edit svg{
+    width: 20%;
+    color: #1ea5ff;
+}
+
+
+.list-item-content{
+    text-align: left;
+    width: 70%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.list-item-input{
+    text-align: left;
+    width: 70%;
+}
+
+.list-item-operate{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list-item-operate svg{
+    cursor: pointer;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.todo-finished{
+    text-decoration:line-through;
+}
+.todo-unfinished{
+    text-decoration:none;
+}
