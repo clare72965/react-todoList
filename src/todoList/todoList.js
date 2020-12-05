@@ -27,7 +27,7 @@ class TodoList extends Component {
     render() {
         return (
             <div className="addList-input">
-                <input type="text" onInput={(e) => this.handleInput(e)} value={this.state.content} />
+                <input type="text" onInput={(e) => this.handleInput(e)} value={this.state.content} placeholder="請輸入代辦事項"/>
                 <div onClick={() => this.handleClick()}>新增代辦</div>
             </div>
         );
